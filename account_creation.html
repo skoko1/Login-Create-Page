@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Creation</title>
+    <link rel="stylesheet" type="text/css" href="login.css">
+</head>
+<body>
+<div class ="login border">
+    <h1>Create Account</h1>
+    <form>
+        <div class ="box headers">
+            <!--Create account forms-->
+            <label for="uname">Username</label><br>
+            <input type="text" id="uname" name="uname" size="40"><br>
+            <label for="email">Email</label><br>
+            <input type="text" id="email" name="email" size="40"><br>
+            <label for="pwd">Password</label><br>
+            <input type="password" id="pwd" name="pwd" size="40" required><br>
+            <label for="re_pwd">Re-enter password</label><br>
+            <input type="password" id="re_pwd" name="re_pwd" size="40" required><br><br>
+
+
+        </div>
+        
+        <!--Check boxes-->
+        <input type="checkbox" id="terms_conditions" name="terms_conditions"  required>
+        <label for="terms_conditions">You agree to Shop Now's terms and conditions.</label><br><br>
+        <input type="checkbox" id="email_notifications" name="email_notifications">
+        <label for="email_notifications">(optional) You want to receive email notifications.</label><br><br>
+        
+        <!--Submit button(Create Account)-->
+        <input type="submit" value="Create account">
+    </form> 
+</div>
+</body>
+</html>
